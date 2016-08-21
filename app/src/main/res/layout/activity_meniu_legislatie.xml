@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lulu.scoalaauto.MeniuLegislatie"
+    android:orientation="vertical"
+    android:background="@drawable/fundal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oug"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap1"
+            android:id="@+id/cap1_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap2"
+            android:id="@+id/cap2_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap3"
+            android:id="@+id/cap3_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap4"
+            android:id="@+id/cap4_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap5"
+            android:id="@+id/cap5_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap6"
+            android:id="@+id/cap6_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap7"
+            android:id="@+id/cap7_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap7"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap8"
+            android:id="@+id/cap8_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap8"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap9"
+            android:id="@+id/cap9_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="@string/cap10"
+            android:id="@+id/cap10_id"
+            android:background="@drawable/border_button"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:onClick="activity_cap10"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
