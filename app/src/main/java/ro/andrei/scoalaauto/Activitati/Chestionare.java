@@ -282,8 +282,7 @@ public class Chestionare extends AppCompatActivity implements View.OnClickListen
         btnVariantaC.setVisibility(View.VISIBLE);
     }
 
-    public ArrayList genereazaElemente()
-    {
+    public ArrayList genereazaElemente() {
         ArrayList<Integer> list = new ArrayList<Integer>();
         ArrayList<Integer> listaReturnata=new ArrayList<Integer>();
         for (int i=0; i<49; i++) {
